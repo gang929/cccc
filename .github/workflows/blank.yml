@@ -25,6 +25,7 @@ jobs:
           
       - name: prepare env
         run: |
+          whoami
           apt update
           apt install devscripts gcc automake pkg-config
 
